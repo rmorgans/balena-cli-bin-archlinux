@@ -8,7 +8,7 @@ pkgname=balena-cli-bin
 _pkgname="${pkgname%-bin}"
 provides=(${_pkgname})
 pkgdesc='balena.io command line interface'
-pkgver=19.0.11
+pkgver=19.0.18
 pkgrel=1
 arch=('x86_64')
 url='https://balena.io/'
@@ -30,7 +30,7 @@ source=(
 )
 options=(!strip)
 replaces=('resin-cli')
-sha256sums=('20f98f31ca21c6723c5e49eea9321d67d0737087cab213c9c27a9faae319e4b4'
+sha256sums=('6f0611e7be7ed2572ca95a486c68285bd1dd34f94912e12987c3b2bbe4ad6617'
             '73035fd6887a71a6ae5313ab7a16dac9ac53c196caf8db44133ff4434aea4c88')
 
 package() {
